@@ -6,7 +6,7 @@ n=1
 while n>0:
     if time.localtime().tm_hour == int(hr) and time.localtime().tm_min == int(min) and time.localtime().tm_sec == int(sec) and datetime.date.today() == m :
         print("Playing the ringtone")
-        os.startfile(r"C:\Users\SRINATH\Desktop\c program\alaramtune.mp3")
+        os.startfile(r"PATH.mp3")
         break
     else:
         n=n+1
