@@ -2,6 +2,7 @@
 # print(grocery[6])
 # numbers = [2,5,1,67,9,1]
 # list_1 =['f','srinath']
+# my_list = numbers[:] # this will ensure that my_list gets only the copy of the numbers
 
 # a = numbers.sort() # its unnecessry to write a function for sorting insted of using the inbuit one
 # b = numbers.reverse()
